@@ -3,10 +3,17 @@
 #这个是我自己收集整理的一些常用的工具类
 ##有好的工具类，欢迎提交PR
 ### 作者微博: [@海淀区小鬼风尘](http://weibo.com/2675061813/profile?topnav=1&wvr=6)
+![image](https://user-images.githubusercontent.com/8079253/62353106-6e050a00-b53c-11e9-90e7-c3f01146838d.png)
+
+
+![Total visitor](https://visitor-count-badge.herokuapp.com/total.svg?repo_id=l123456789jy.lazy)
+![Visitors in today](https://visitor-count-badge.herokuapp.com/today.svg?repo_id=l123456789jy.lazy)
 
 [![License](https://img.shields.io/badge/license-Apache%202-green.svg)](https://www.apache.org/licenses/LICENSE-2.0)
 [![Maven Central](https://img.shields.io/bintray/v/gcssloop/maven/sutil.svg)](https://bintray.com/gcssloop/maven/sutil/view)
 
+##增加常用库的README_LIB
+[常用库](https://github.com/l123456789jy/Lazy/blob/master/USER_LIB_README.md)
 
 # 内容说明
  工具 | 描述
@@ -74,12 +81,26 @@
 [SDCardUtils](https://github.com/l123456789jy/Lazy/blob/master/lazylibrary/src/main/java/com/github/lazylibrary/util/SDCardUtils.java)|SD卡工具箱
 [Symbols](https://github.com/l123456789jy/Lazy/blob/master/lazylibrary/src/main/java/com/github/lazylibrary/util/Symbols.java)|常用符号
 [WebViewManager](https://github.com/l123456789jy/Lazy/blob/master/lazylibrary/src/main/java/com/github/lazylibrary/util/WebViewManager.java)|WebView管理器，提供常用设置
-
-
-
+[AmUtiles](https://github.com/l123456789jy/Lazy/blob/master/lazylibrary/src/main/java/com/github/lazylibrary/util/AmUtiles.java)|定时器工具类
+[XmlParseUtiles](https://github.com/l123456789jy/Lazy/blob/master/lazylibrary/src/main/java/com/github/lazylibrary/util/XmlParseUtiles.java)|对pull解析xml进行了封装
+[AntiEmulatorUtiles](https://github.com/l123456789jy/Lazy/blob/master/lazylibrary/src/main/java/com/github/lazylibrary/util/AntiEmulatorUtiles.java)|检测是否在模拟器上运行
+[code style](https://github.com/l123456789jy/Lazy/tree/master/lazylibrary/src/file)|drakeet的code style
+[FastBlur](https://github.com/l123456789jy/Lazy/blob/master/lazylibrary/src/main/java/com/github/lazylibrary/util/FastBlur.java)|毛玻璃效果
+[AES](https://github.com/l123456789jy/Lazy/blob/master/lazylibrary/src/main/java/com/github/lazylibrary/util/AES.java)|AES加解密
+[M3U8ParserUtiles](https://github.com/l123456789jy/Lazy/blob/master/lazylibrary/src/main/java/com/github/lazylibrary/util/M3U8ParserUtiles.java)|解析m3u8文件
+[Hex](https://github.com/l123456789jy/Lazy/blob/master/lazylibrary/src/main/java/com/github/lazylibrary/util/Hex.java)|转换成16进制
+[CreatQRCodeImg](https://github.com/l123456789jy/Lazy/blob/master/lazylibrary/src/main/java/com/github/lazylibrary/util/CreatQRCodeImg.java)|生成带log二维码
+[NoPreloadViewPager](https://github.com/l123456789jy/Lazy/blob/master/lazylibrary/src/main/java/com/github/lazylibrary/util/NoPreloadViewPager.java)|禁止预加载的viewpager
+[App](https://github.com/l123456789jy/Lazy/blob/master/lazylibrary/src/main/java/com/github/lazylibrary/util/App.java)|通过反射获取Application单利的工具类
+[MediaPlayerUtiles](https://github.com/l123456789jy/Lazy/blob/master/lazylibrary/src/main/java/com/github/lazylibrary/util/MediaPlayerUtiles.java)|播放资源目录下音频文件
+[Repair7PopupWindow](https://github.com/l123456789jy/Lazy/blob/master/lazylibrary/src/main/java/com/github/lazylibrary/view/Repair7PopupWindow.java)|修复7.0上popwindow位置显示错误
+[NioFileUtiles](https://github.com/l123456789jy/Lazy/blob/master/lazylibrary/src/main/java/com/github/lazylibrary/util/NioFileUtiles.java)|使用NIO操作文件提高性能
+[ArgbHelper](https://github.com/l123456789jy/Lazy/blob/master/lazylibrary/src/main/java/com/github/lazylibrary/util/ArgbHelper.java)|渐变色工具
 
 ##依赖
           compile 'com.github.lazylibrary:lazylibrary:1.0.2'
+
+
 
 
 ## License
